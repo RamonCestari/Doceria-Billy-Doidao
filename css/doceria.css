@@ -1,0 +1,185 @@
+/* CABEÇALHO */
+
+header {
+    background-color: #cb6ce6;
+    justify-content: center;
+    box-shadow: 0 4px 3px gray;
+}
+
+.img-logo {
+    width: 250px;
+    height: 250px;
+    
+}
+
+.bloco{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.bloco-descricao h2{
+    display: inline-block;
+    
+}
+
+nav {
+    position: absolute; 
+    right: 0; 
+    top: 110px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+   
+}
+
+.link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.link:hover {
+    color: #fff;
+    transition: 1s;
+      
+}
+
+/*BODY */
+
+.img-bolos {
+    width: 200px;
+    height: 150px;
+}
+
+.img-bolos-descricao {
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+}
+
+.descricao-bolos h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.lista-bolos {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.lista-bolos li {
+    vertical-align:top;
+    display: inline-block;
+    width: 30%;
+    height: 450px;
+    text-align: center;
+    box-shadow: 4px 4px 3px #cb6ce6;
+    padding: 80px 10px;
+    margin: 80px 1.5% 0 1.5%;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.lista-bolos li:hover {
+    border: 1px solid #cb6ce6;
+    
+}
+
+.lista-bolos li:hover h2 {
+    color: #cb6ce6;
+}
+
+
+.lista-bolos h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bolo-descricao-inicial {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.bolo-descricao {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 25px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-descricao {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.bolo-preco {
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-wp {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom:  40px;
+    right: 40px;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #cb6ce6;
+    margin-top: 80px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer img {
+    display: inline;
+    margin: 20px;
+}
+
+.logo-horario {
+    width: 570px;
+    margin: 0 auto;
+}
+
+th, tr, td {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 4px;
+    border: 2px solid #fff;
+    
+}
+
+.display-table {
+    position: absolute;
+    margin: 20px;
+    vertical-align: top;
+    display: inline-block;
+}

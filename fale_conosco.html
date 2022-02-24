@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF=8">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fale_conosco.css">
+    <link rel="shortcut icon" href="imagens/icon/icons-bengala-doce.png">
+    
+    <title>Fale Conosco</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="bloco">
+            <h1><a class="link" href="index.html"><img class="img-logo" src="imagens/Doceria logo.png"></a></h1>
+            <nav>
+                <ul>
+                    <li><a class="link" href="index.html">Home</a></li>
+                    <li><a class="link" href="bolos.html">Bolos e Doces</a></li>
+                    <li><a class="link" href="fale_conosco.html">Fale Conosco</a></li>
+                    <li><a class="link" href="sobre_nos.html">Sobre Nós</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="bloco">
+        <form>
+            <label class="label-campos" for="nome">Nome Completo</label>
+            <input class="input-campos" id="nome" type="text" required>
+
+            <label class="label-campos" for="email">E-Mail</label>
+            <input class="input-campos" id="email" type="email" required>
+
+            <label class="label-campos" for="telefone">Telefone ou Celular</label>
+            <input class="input-campos" id="telefone" type="tel" placeholder="(99)12345-1234" required>
+
+            <label class="label-campos" for="pedido">Data do Pedido</label>
+            <input class="input-campos" type="date" id="pedido" required>
+
+            <fieldset class="fieldset-mensagem">
+                <legend>Escreva sua mensagem</legend>
+                <textarea maxlength="512" required></textarea>
+            </fieldset>
+
+            <label class="label-checkbox">
+                <input class="input-checkbox" type="checkbox" checked>
+                Deseja receber nossos emails promocionais ?
+            </label>
+
+            <p class="p-horario">Qual o melhor horário para contato?</p>
+
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+        </form>
+        
+        <div>
+            <a href="https://api.whatsapp.com/send?phone=5516981839794" target="_blank"><img class="button-wp"
+                    src="imagens/icon/whatsapp-logo-1.png" alt="Icone Whatsapp"></a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="bloco">
+            <div class="logo-horario">
+                <img src="imagens/Doceria logo.png" width="100px" height="100px" alt="imagem-logo">
+                <table class="display-table">
+                    <thead>
+                        <tr>
+                            <th colspan="4">
+                                Horario de Funcionamento
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td colspan="2">
+                                Segunda a Sexta
+                            </td>
+                            <td>
+                                Sabados e Feriados
+                            </td>
+                            <td>
+                                Domingo
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                08:00 ~ 12:00
+                            </td>
+                            <td>
+                                13:00 ~ 17:00
+                            </td>
+                            <td>
+                                08:00 ~ 13:00
+                            </td>
+                            <td>
+                                Fechado
+                            </td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot">
+                        <td colspan="4">
+                            Agradecemos a preferência!
+                        </td>
+                        </tfoot>
+                </table>
+            </div>
+
+            <p>&copy; Copyright - Todos os direitos reservados!</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
